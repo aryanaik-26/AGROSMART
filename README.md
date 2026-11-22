@@ -150,16 +150,4 @@ streamlit run app.py
 
 ---
 
-## 🎓 6. College Viva Q&A Guide
 
-**Q1: How do you prevent data leakage during preprocessing?**  
-*Answer:* All transformers (`StandardScaler`, `SimpleImputer`, `OneHotEncoder`) are fitted strictly on the training partition ($D_{\text{train}}$) and frozen. The test set and real-time inference inputs only call `.transform()`, ensuring no statistical information from the test set influences model parameters.
-
-**Q2: Why use both Custom CNN and Pretrained Models (MobileNetV2, EfficientNetB0)?**  
-*Answer:* To evaluate the trade-off between domain-specific feature learning from scratch versus inductive transfer learning from generic visual features (edges, textures) learned on ImageNet.
-
-**Q3: How does Grad-CAM differ from ordinary saliency maps?**  
-*Answer:* Plain saliency maps compute input-pixel gradients, which are notoriously noisy and class-agnostic. Grad-CAM computes gradients at the deepest convolutional layer (which retains high-level semantic abstractions) and uses global average pooling and ReLU to capture only features positively supporting the selected diagnosis.
-
-**Q4: Why distinguish crop recommendations from guaranteed agricultural outcomes?**  
-*Answer:* Model recommendations are probabilistic decision-support scores based on historical benchmark distributions. Actual farm productivity is subject to micro-climatic shocks, pest infestations, and seed variety differences, necessitating clear disclaimers for responsible AI deployment.
