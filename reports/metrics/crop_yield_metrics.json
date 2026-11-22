@@ -1,0 +1,82 @@
+{
+    "Ridge Regression": {
+        "model_name": "Ridge Regression",
+        "mae": 2.794,
+        "mse": 32.7521,
+        "rmse": 5.7229,
+        "r2_score": 0.9518,
+        "adjusted_r2": 0.9491,
+        "inference_latency_ms": 0.001,
+        "training_time_seconds": 0.009
+    },
+    "Decision Tree": {
+        "model_name": "Decision Tree",
+        "mae": 3.0062,
+        "mse": 47.7958,
+        "rmse": 6.9135,
+        "r2_score": 0.9296,
+        "adjusted_r2": 0.9258,
+        "inference_latency_ms": 0.001,
+        "training_time_seconds": 0.038
+    },
+    "Random Forest": {
+        "model_name": "Random Forest",
+        "mae": 2.3603,
+        "mse": 27.9297,
+        "rmse": 5.2849,
+        "r2_score": 0.9589,
+        "adjusted_r2": 0.9566,
+        "inference_latency_ms": 0.063,
+        "training_time_seconds": 0.325
+    },
+    "Support Vector Regressor": {
+        "model_name": "Support Vector Regressor",
+        "mae": 3.3863,
+        "mse": 58.9884,
+        "rmse": 7.6804,
+        "r2_score": 0.9131,
+        "adjusted_r2": 0.9084,
+        "inference_latency_ms": 0.302,
+        "training_time_seconds": 1.148
+    },
+    "K-Nearest Neighbors": {
+        "model_name": "K-Nearest Neighbors",
+        "mae": 11.555,
+        "mse": 366.1614,
+        "rmse": 19.1353,
+        "r2_score": 0.4607,
+        "adjusted_r2": 0.4314,
+        "inference_latency_ms": 0.049,
+        "training_time_seconds": 0.001
+    },
+    "XGBoost": {
+        "model_name": "XGBoost",
+        "mae": 2.5437,
+        "mse": 31.8106,
+        "rmse": 5.6401,
+        "r2_score": 0.9531,
+        "adjusted_r2": 0.9506,
+        "inference_latency_ms": 0.004,
+        "training_time_seconds": 0.153
+    },
+    "Gradient Boosting": {
+        "model_name": "Gradient Boosting",
+        "mae": 2.4089,
+        "mse": 27.6225,
+        "rmse": 5.2557,
+        "r2_score": 0.9593,
+        "adjusted_r2": 0.9571,
+        "inference_latency_ms": 0.002,
+        "training_time_seconds": 0.955
+    },
+    "Stacking Ensemble": {
+        "model_name": "Stacking Ensemble",
+        "mae": 2.3473,
+        "mse": 27.516,
+        "rmse": 5.2456,
+        "r2_score": 0.9595,
+        "adjusted_r2": 0.9573,
+        "inference_latency_ms": 0.089,
+        "training_time_seconds": 6.982
+    }
+}

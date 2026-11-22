@@ -1,0 +1,35 @@
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Archives & Downloaded Datasets
+*.zip
+*.tar.gz
+*.rar
+archive.zip
+archive/
+
+# Large Models exceeding GitHub 100MB hard limit
+models/disease_detection/best_disease_model.keras
+models/disease_detection/custom_cnn.keras
+
+# Streamlit Local Secrets
+.streamlit/secrets.toml
+
+# OS Metadata
+.DS_Store
+Thumbs.db
